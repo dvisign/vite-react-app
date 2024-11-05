@@ -9,9 +9,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mescius/wijmo.react.all": "^5.20242.21",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
     "@eslint/js": "^9.14.0",
+    "@types/node": "^22.9.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
     "@typescript-eslint/eslint-plugin": "^8.12.2",
     "@typescript-eslint/parser": "^8.12.2",
+    "@vitejs/plugin-react-swc": "^3.5.0",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.6.3",
@@ -22,17 +31,8 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "globals": "^15.11.0",
     "prettier": "^3.3.3",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "typescript-eslint": "^8.12.2"
-  },
-  "devDependencies": {
-    "@types/node": "^22.9.0",
-    "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.1",
-    "@vitejs/plugin-react-swc": "^3.5.0",
     "typescript": "~5.6.2",
-    "typescript-eslint": "^8.13.0",
+    "typescript-eslint": "^8.12.2",
     "vite": "^5.4.10"
   }
 }
